@@ -20,7 +20,7 @@ This is a Blog Preview Card component that you can use on your websites.
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Blog Preview Card](https://altindaselif.github.io/blog-preview-card-main/)
 
 ## My process
 
