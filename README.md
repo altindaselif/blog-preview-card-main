@@ -4,35 +4,25 @@ This is a Blog Preview Card component that you can use on your websites.
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Built with](#built-with)
 - [Author](#author)
 
-## Overview
-
-### Screenshot
+## Screenshot
 
 ![](screenshot.png)
 
-### Links
+## Links
 
-- Live Site URL: [Blog Preview Card](https://altindaselif.github.io/blog-preview-card-main/)
+- Solution URL: [Blog Preview Card Solution](https://github.com/altindaselif/blog-preview-card-main)
+- Live Site URL: [Blog Preview Card Live](https://altindaselif.github.io/blog-preview-card-main/)
 
-## My process
-
-### Built with
+## Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-
-### What I learned
-
-I didn’t learn anything entirely new, but I reinforced and practiced what I already knew.
 
 ## Author
 
