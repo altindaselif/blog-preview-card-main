@@ -50,6 +50,7 @@ body {
   font-family: var(--font-family);
   background-color: var(--yellow);
   height: 100vh;
+  padding: var(--spacing-300);
 
   display: flex;
   align-items: center;
@@ -57,7 +58,7 @@ body {
 }
 
 .card-container {
-  width: 38.4rem;
+  max-width: 38.4rem;
   background-color: var(--white);
   border-radius: 2rem;
   padding: var(--spacing-300);

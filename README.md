@@ -4,7 +4,8 @@ This is a Blog Preview Card component that you can use on your websites.
 
 ## Screenshots
 
-- **Desktop:** ![Desktop Screenshot](screenshot.png)
+- **Desktop:** ![Desktop Screenshot](desktop-screenshot.png)
+- **Mobile:** ![Mobile Screenshot](mobile-screenshot.png)
 
 ## Links
 
