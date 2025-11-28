@@ -11,20 +11,20 @@
   --line-height: 1.5;
 
   /* Text Preset 1 */
-  --text-preset-1-size: 2.4rem;
-  --text-preset-1-weight: 800;
+  --tp-1-size: 2.4rem;
+  --tp-1-weight: 800;
 
   /* Text Preset 2 */
-  --text-preset-2-size: 1.6rem;
-  --text-preset-2-weight: 500;
+  --tp-2-size: 1.6rem;
+  --tp-2-weight: 500;
 
   /* Text Preset 3 */
-  --text-preset-3-size: 1.4rem;
-  --text-preset-3-weight: 500;
+  --tp-3-size: 1.4rem;
+  --tp-3-weight: 500;
 
   /* Text Preset 3 (Bold) */
-  --text-preset-3b-size: 1.4rem;
-  --text-preset-3b-weight: 800;
+  --tp-3b-size: 1.4rem;
+  --tp-3b-weight: 800;
 
   /* Spacing */
   --spacing-300: 2.4rem;
@@ -82,16 +82,16 @@ body {
 }
 
 .card-date {
-  font-size: var(--text-preset-3-size);
-  font-weight: var(--text-preset-3-weight);
+  font-size: var(--tp-3-size);
+  font-weight: var(--tp-3-weight);
   display: block;
   margin-bottom: var(--spacing-300);
 }
 
 .card-link {
   display: block;
-  font-size: var(--text-preset-1-size);
-  font-weight: var(--text-preset-1-weight);
+  font-size: var(--tp-1-size);
+  font-weight: var(--tp-1-weight);
   margin-bottom: var(--spacing-300);
 }
 
@@ -108,8 +108,8 @@ body {
 
 .card-description {
   color: var(--gray-500);
-  font-size: var(--text-preset-2-size);
-  font-weight: var(--text-preset-2-weight);
+  font-size: var(--tp-2-size);
+  font-weight: var(--tp-2-weight);
   line-height: var(--line-height);
   margin-bottom: var(--spacing-300);
 }
@@ -126,6 +126,6 @@ body {
 
 .writer-name {
   color: var(--gray-950);
-  font-size: var(--text-preset-3b-size);
-  font-weight: var(--text-preset-3b-weight);
+  font-size: var(--tp-3b-size);
+  font-weight: var(--tp-3b-weight);
 }
