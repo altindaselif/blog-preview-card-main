@@ -1,8 +1,36 @@
 :root {
-  --yellow: hsl(47, 88%, 63%);
-  --white: hsl(0, 0%, 100%);
-  --gray-500: hsl(0, 0%, 42%);
-  --gray-950: hsl(0, 0%, 7%);
+  /* Colors */
+  --gray-950: #111;
+  --gray-500: #6b6b6b;
+  --yellow: #f4d04e;
+  --white: #fff;
+
+  /* Typography - Font Family */
+  --font-family: "Figtree Extra Bold", sans-serif;
+  --letter-spacing: 0;
+  --line-height: 1.5;
+
+  /* Text Preset 1 */
+  --text-preset-1-size: 2.4rem;
+  --text-preset-1-weight: 800;
+
+  /* Text Preset 2 */
+  --text-preset-2-size: 1.6rem;
+  --text-preset-2-weight: 500;
+
+  /* Text Preset 3 */
+  --text-preset-3-size: 1.4rem;
+  --text-preset-3-weight: 500;
+
+  /* Text Preset 3 (Bold) */
+  --text-preset-3b-size: 1.4rem;
+  --text-preset-3b-weight: 800;
+
+  /* Spacing */
+  --spacing-300: 2.4rem;
+  --spacing-150: 1.2rem;
+  --spacing-100: 0.8rem;
+  --spacing-50: 0.4rem;
 }
 
 * {
@@ -19,7 +47,7 @@ html {
 }
 
 body {
-  font-family: "Figtree", sans-serif;
+  font-family: var(--font-family);
   background-color: var(--yellow);
   height: 100vh;
 
@@ -29,18 +57,18 @@ body {
 }
 
 .card-container {
-  width: 32rem;
+  width: 38.4rem;
   background-color: var(--white);
   border-radius: 2rem;
-  padding: 2.4rem;
+  padding: var(--spacing-300);
   border: 1px solid var(--gray-950);
-  box-shadow: 7px 7px 0px var(--gray-950);
+  box-shadow: 8px 8px 0px var(--gray-950);
 }
 
 .card-img {
   width: 100%;
-  border-radius: 1.5rem;
-  margin-bottom: 1.5rem;
+  border-radius: 1rem;
+  margin-bottom: var(--spacing-300);
 }
 
 .card-tag {
@@ -48,22 +76,23 @@ body {
   display: inline-block;
   font-weight: 800;
   background-color: var(--yellow);
-  padding: 0.5rem 1rem;
-  border-radius: 0.3rem;
-  margin-bottom: 1.2rem;
+  padding: var(--spacing-50) var(--spacing-150);
+  border-radius: 0.4rem;
+  margin-bottom: var(--spacing-300);
 }
 
 .card-date {
-  font-size: 1.2rem;
+  font-size: var(--text-preset-3-size);
+  font-weight: var(--text-preset-3-weight);
   display: block;
-  margin-bottom: 1.2rem;
+  margin-bottom: var(--spacing-300);
 }
 
 .card-link {
   display: block;
-  font-weight: 800;
-  letter-spacing: 0.05rem;
-  margin-bottom: 1.5rem;
+  font-size: var(--text-preset-1-size);
+  font-weight: var(--text-preset-1-weight);
+  margin-bottom: var(--spacing-300);
 }
 
 .card-link:link,
@@ -78,9 +107,11 @@ body {
 }
 
 .card-description {
-  font-size: 1.3rem;
-  line-height: 1.5;
-  margin-bottom: 2rem;
+  color: var(--gray-500);
+  font-size: var(--text-preset-2-size);
+  font-weight: var(--text-preset-2-weight);
+  line-height: var(--line-height);
+  margin-bottom: var(--spacing-300);
 }
 
 .card-writer-box {
@@ -94,6 +125,7 @@ body {
 }
 
 .writer-name {
-  font-size: 1.2rem;
-  font-weight: 800;
+  color: var(--gray-950);
+  font-size: var(--text-preset-3b-size);
+  font-weight: var(--text-preset-3b-weight);
 }
